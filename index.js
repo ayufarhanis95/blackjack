@@ -61,3 +61,13 @@ function newcard() {
     }
     
 }
+
+function newgame() {
+    cardsEl.textContent = "Cards: "
+    sumEl.textContent = "Sum: "
+    statusEl.textContent = " "
+    isAlive = true
+    hasBlackjack = false
+
+
+}
