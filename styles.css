@@ -20,6 +20,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 
 h1, p {
@@ -45,13 +46,19 @@ button {
     border-radius: 10px;
     border: 2px solid var(--title-);
     cursor: pointer;
+    
 }
 .button {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+  
+
 }
 
 #player-el {
     padding-top: 50px;
 }
+
+
